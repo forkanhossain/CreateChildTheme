@@ -33,11 +33,11 @@ Text Domain: twenty-fifteen-child
 #OVERRIDING PARENT THEME FILES you need add these files in the child theme and override code accordingly.
 #Recommended way to load the parent’s style sheet — and the reason why we created functions.php earlier — is to use wp_enqueue_style(). This WordPress function safely adds style sheet files to a WordPress theme.
 The corresponding code looks like this:
-<code>
+<pre>
 add_action( 'wp_enqueue_scripts', 'enqueue_parent_styles' );
 
 function enqueue_parent_styles() {
    wp_enqueue_style( 'parent-style', get_template_directory_uri().'/style.css' );
 }
-</code>
+</pre>
 
