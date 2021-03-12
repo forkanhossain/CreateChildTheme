@@ -5,24 +5,26 @@ Here I am going to show how to create child theme in WordPress. If you face any 
 #A child theme needs three things: its own folder, a style sheet and a functions.php file.
 
 #1) A Child theme name should be as the parent theme name appeanding with -child. For example if you want to create child theme of twentyfifteen, it's child theme name will be twentyfifteen-child.
+
 #2) Simple tyle sheet style.css with these below code: 
 #Feel free to copy it and make your own adjustments
+
 <pre>
 /*
-Theme Name: Twenty Fifteen Child
-Theme URI: http://example.com/twenty-fifteen-child/
-description: >-
-Twenty Fifteen Child Theme
-Author: Forakn Hossain
-Author URI: http://example.com
-Template: twentyfifteen
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
-Text Domain: twenty-fifteen-child
+ Theme Name:   Twenty Fifteen Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyfifteenchild
 */
 </pre>
+
 #IMPLEMENTING CUSTOM STYLES, you need to add custom css from here
 #If you want to know more details you can visit WordPress Instructions: https://developer.wordpress.org/themes/advanced-topics/child-themes/
 
