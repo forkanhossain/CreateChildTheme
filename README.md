@@ -1,12 +1,12 @@
-# CreateChildTheme
+# themename-child
 Here I am going to show how to create child theme in WordPress. If you face any problem for creating child theme in your main theme, I am willing to help you. Feel free to contact with me. Thanks
 
 #At First You need to CREATE A FOLDER IN wp-content/themes
-# A child theme needs three things: its own folder, a style sheet and a functions.php file.
+#A child theme needs three things: its own folder, a style sheet and a functions.php file.
 
-# 1) A Child theme name should be as the parent theme name appeanding with -child. For example if you want to create child theme of twentyfifteen, it's child theme name will be twentyfifteen-child.
-# 2) Simple tyle sheet style.css with these below code: 
-# Feel free to copy it and make your own adjustments
+#1) A Child theme name should be as the parent theme name appeanding with -child. For example if you want to create child theme of twentyfifteen, it's child theme name will be twentyfifteen-child.
+#2) Simple tyle sheet style.css with these below code: 
+#Feel free to copy it and make your own adjustments
 <pre>
 /*
 Theme Name: Twenty Fifteen Child
@@ -26,7 +26,7 @@ Text Domain: twenty-fifteen-child
 #IMPLEMENTING CUSTOM STYLES, you need to add custom css from here
 #If you want to know more details you can visit WordPress Instructions: https://developer.wordpress.org/themes/advanced-topics/child-themes/
 
-# 3) Need to create functions.php file with your custom functions if you have. Otherwise no need to add anything but file should have in your child theme folder.
+#3) Need to create functions.php file with your custom functions if you have. Otherwise no need to add anything but file should have in your child theme folder.
 
 #Theme Thumbnail: ADD THEME IMAGE while activating your theme, you need to add a PNG image with the name screenshot.png. The recommended size is 880 × 660 pixels. Other image formats such as JPEG and GIF would also work
 
