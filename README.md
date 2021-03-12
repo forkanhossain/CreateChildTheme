@@ -7,6 +7,7 @@ Here I am going to show how to create child theme in WordPress. If you face any 
 # 1) A Child theme name should be as the parent theme name appeanding with -child. For example if you want to create child theme of twentyfifteen, it's child theme name will be twentyfifteen-child.
 # 2) Simple tyle sheet style.css with these below code: 
 # Feel free to copy it and make your own adjustments
+<pre>
 /*
 Theme Name: Twenty Fifteen Child
 Theme URI: http://example.com/twenty-fifteen-child/
@@ -21,7 +22,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
 Text Domain: twenty-fifteen-child
 */
-
+</pre>
 #IMPLEMENTING CUSTOM STYLES, you need to add custom css from here
 #If you want to know more details you can visit WordPress Instructions: https://developer.wordpress.org/themes/advanced-topics/child-themes/
 
