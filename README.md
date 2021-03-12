@@ -1,4 +1,4 @@
-# themename-child
+# mainthemename-child
 Here I am going to show how to create child theme in WordPress. If you face any problem for creating child theme in your main theme, I am willing to help you. Feel free to contact with me. Thanks
 
 #At First You need to CREATE A FOLDER IN wp-content/themes
