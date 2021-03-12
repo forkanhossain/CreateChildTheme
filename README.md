@@ -22,15 +22,15 @@ Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-
 Text Domain: twenty-fifteen-child
 */
 
-# IMPLEMENTING CUSTOM STYLES, you need to add custom css from here
+#IMPLEMENTING CUSTOM STYLES, you need to add custom css from here
 #If you want to know more details you can visit WordPress Instructions: https://developer.wordpress.org/themes/advanced-topics/child-themes/
 
 # 3) Need to create functions.php file with your custom functions if you have. Otherwise no need to add anything but file should have in your child theme folder.
 
 #Theme Thumbnail: ADD THEME IMAGE while activating your theme, you need to add a PNG image with the name screenshot.png. The recommended size is 880 × 660 pixels. Other image formats such as JPEG and GIF would also work
 
-# OVERRIDING PARENT THEME FILES you need add these files in the child theme and override code accordingly.
-# Recommended way to load the parent’s style sheet — and the reason why we created functions.php earlier — is to use wp_enqueue_style(). This WordPress function safely adds style sheet files to a WordPress theme.
+#OVERRIDING PARENT THEME FILES you need add these files in the child theme and override code accordingly.
+#Recommended way to load the parent’s style sheet — and the reason why we created functions.php earlier — is to use wp_enqueue_style(). This WordPress function safely adds style sheet files to a WordPress theme.
 The corresponding code looks like this:
 <code>
 add_action( 'wp_enqueue_scripts', 'enqueue_parent_styles' );
